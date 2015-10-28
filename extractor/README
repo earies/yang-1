@@ -1,0 +1,18 @@
+A tool to extract the typedef, identity, grouping from a Yang model
+
+usage: extractor.py source [--srcdir SRCDIR] [--dstdir DSTDIR] [--dstfile DSTFILE] [--type TYPE] [--debug DEBUG] [-h] 
+
+positional arguments:
+source       The URL or file name of the YANG model to extract info from
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --srcdir SRCDIR    Optional: directory where to find the source text;
+                     default is './'
+  --dstdir DSTDIR    Optional: directory where to put the extracted yang info;
+                     default is './'
+  --dstfile DSTFILE  Optional: file to append the extracted information;
+                     default is 'separate file for each component'
+  --type TYPE        Optional flag that determines what to extract (typedef, identity, or grouping); default is 'all'
+  --debug DEBUG      Optional: debug level
+
