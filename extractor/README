@@ -13,6 +13,7 @@ optional arguments:
                      default is './'
   --dstfile DSTFILE  Optional: file to append the extracted information;
                      default is 'separate file for each component'
-  --type TYPE        Optional flag that determines what to extract (typedef, identity, or grouping); default is 'all'
+  --type TYPE        Optional flag that determines what to extract (typedef, identity, or grouping); 
+                     default is 'all'
   --debug DEBUG      Optional: debug level
 
