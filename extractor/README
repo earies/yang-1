@@ -9,7 +9,7 @@ optional arguments:
   -h, --help         show this help message and exit
   --srcdir SRCDIR    Optional: directory where to find the source text;
                      default is './'
-  --dstdir DSTDIR    Optional: directory where to put the extracted yang info;
+  --dstdir DSTDIR    Optional: directory where to put the extracted YANG info;
                      default is './'
   --dstfile DSTFILE  Optional: file to append the extracted information;
                      default is 'separate file for each component'
