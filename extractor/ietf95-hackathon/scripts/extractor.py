@@ -92,6 +92,8 @@ class YangTypeParser(object):
             result['module'][module][type_name] = {}
             result['module'][module][type_name]['type'] = yang_type
             result['module'][module][type_name]['data'] = data
+            if not os.path.exists(self.dst_dir):
+                os.makedirs(self.dst_dir)
             output_file = os.path.join(self.dst_dir, yang_type + '-' + type_name + '.json')
             if os.path.exists(output_file):
                 logger.warning('file exists: %s (duplicate type: %s)', output_file, type_name)
